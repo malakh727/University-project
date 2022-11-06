@@ -43,6 +43,9 @@ li:hover{
     cursor: pointer;
     box-shadow: rgba(252, 163, 17, 0.4) 0px 5px, rgba(252, 163, 17, 0.3) 0px 10px, rgba(252, 163, 17, 0.2) 0px 15px, rgba(252, 163, 17, 0.1) 0px 20px, rgba(252, 163, 17, 0.05) 0px 25px;
 }
+.container{
+    margin-top: 15rem;
+}
 #missing{
     background-image: url("https://image.shutterstock.com/image-photo/kid-siting-on-floor-street-260nw-518475727.jpg");
 }
