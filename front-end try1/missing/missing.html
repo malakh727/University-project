@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="found.css">
-    <title>Found a child?</title>
+    <link rel="stylesheet" href="../shared-missing-found.css">
+    <title>Missing a child?</title>
 </head>
 <body>
     <div class="form_wrapper">
@@ -13,49 +13,60 @@
             <h2>Found a child?</h2>
           </div> -->
           <div class="row">
-            <div class="pic">
+            <div class="pic" style="background-image: url('missing.png');">
             </div>
             <div class="right-side">
               <form>
-                <h1>Found a child?</h1>
+                <h1>Missing a child?</h1>
                 <div>
                   <div class="active">
                     <div class="input_field"> <span><i aria-hidden="true" class="fa fa-user"></i></span>
-                      <input type="text" name="name" placeholder="Your Name" />
+                      <input type="text" name="name" placeholder="Your Name" /> <span class="hi">*</span>
                     </div>
                   </div>
                   <div class="active">
                     <div class="input_field"> <span><i aria-hidden="true" class="fa fa-user"></i></span>
-                      <input type="text" name="name" placeholder="Child's Name" required />
+                      <input type="text" name="name" placeholder="Child's Name" required /> <span class="hi">*</span>
                     </div>
                   </div>
                   <div class="col_half">
                     <div class="input_field"> <span><i aria-hidden="true" class="fa fa-user"></i></span>
-                      <input type="text" name="number" placeholder="Phone number" required />
+                      <input type="text" name="number" placeholder="Phone number" required /> <span class="hi">*</span>
                     </div>
+                  </div>
+                  <div class="input_field select_option">
+                    <select>
+                      <option>Select a country</option>
+                      <option>Ajloun</option>
+                      <option>Amman</option>
+                      <option>Aqaba</option>
+                      <option>Balqa</option>
+                      <option>Irbid</option>
+                      <option>Jerash</option>
+                      <option>Karak</option>
+                      <option>Ma'an</option>
+                      <option>Madaba</option>
+                      <option>Mafraq</option>
+                      <option>Tafilah</option>
+                      <option>Zarqa</option>
+                    </select>
+                    <div class="select_arrow"></div> <span class="hi">*</span>
                   </div>
                   <div class="col_half">
                     <div class="input_field"> <span><i aria-hidden="true" class="fa fa-user"></i></span>
-                      <input type="text" name="Address" placeholder="Address" required />
+                      <input type="text" name="Address" placeholder="Address" required /> <span class="hi">*</span>
                     </div>
                   </div>
                   <div class="col_half"> <span><i aria-hidden="true" class="fa fa-envelope"></i></span>
-                    <input type="email" name="email" placeholder="Email" required />
+                    <input type="email" name="email" placeholder="Email" />
                   </div>
                 </div>
-                    <div class="input_field select_option">
-                      <select>
-                        <option>Select a country</option>
-                        <option>Option 1</option>
-                        <option>Option 2</option>
-                      </select>
-                      <div class="select_arrow"></div>
-                    </div>
                     <div>
-                      <p>Click on the "Choose File" button to upload a file:</p>
+                      <p>Click on the "Choose File" button to upload a file:</p> 
                         <form action="/action_page.php">
                           <input type="file" id="myFile" name="filename">
                         </form>
+                        <span class="hi">*</span>
                     </div>
                     <hr>
                 <input class="button" type="submit" value="Submit" />

@@ -1,31 +1,6 @@
 i{
     color:white;
 }
-.navbar-brand{
-    color: #14213D;
-    background-color: #FCA311;
-    border-radius: 5px;
-}
-.navbar{
-    background-color: #14213D;
-    padding: 0.5em;
-    padding-left: 7em;
-}
-ul{
-    padding-right: 7em;
-}
-li{
-    padding: 0.4em;
-    font: 1.5em sans-serif;
-    color: #FCA311;
-    margin-left: 1em;
-    border-radius: 4px;
-    cursor: pointer;
-}
-li:hover{
-    background-color: #FCA311;
-    color: #14213D;
-}
 .row{
     
     display: flex;
@@ -44,7 +19,7 @@ li:hover{
     box-shadow: rgba(252, 163, 17, 0.4) 0px 5px, rgba(252, 163, 17, 0.3) 0px 10px, rgba(252, 163, 17, 0.2) 0px 15px, rgba(252, 163, 17, 0.1) 0px 20px, rgba(252, 163, 17, 0.05) 0px 25px;
 }
 .container{
-    margin-top: 15rem;
+    margin-top: 12rem;
 }
 #missing{
     background-image: url("https://image.shutterstock.com/image-photo/kid-siting-on-floor-street-260nw-518475727.jpg");

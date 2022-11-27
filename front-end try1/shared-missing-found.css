@@ -8,7 +8,7 @@ body {
 	width: 75%;
 	max-width: 100%;
 	box-sizing: border-box;
-	margin: 8% auto 0;
+	margin: 4% auto 0;
 	position: relative;
 	z-index: 1;
 	border-top: 10px solid #FCA311;
@@ -51,8 +51,7 @@ input[type=text], [type=email]{
     box-sizing: border-box;
   }
 .pic{
-    background-image: url('https://image.shutterstock.com/image-photo/parent-holds-hand-little-child-260nw-400082179.jpg');
-    height: 40rem;
+    height: 45rem;
     width: 45rem;
     background-repeat: no-repeat;
     background-position: center;
@@ -77,4 +76,13 @@ input[type=text], [type=email]{
     background-color: #14213D;
     border-radius: 5px;
     margin-left: 25rem;
+}
+.hi{
+    color: red;
+    background-color: white;
+    font-size:x-large;
+}
+
+.input_field{
+    display: flex;
 }
