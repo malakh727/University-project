@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #14213D;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    gap: 25rem;
+    padding-left: 20rem;
+    padding-top: 15rem;
+    border: none;
+}
+
+div{
+    border: 7px solid #FCA311;
+    border-radius: 5px;
+    padding: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 1700px;
+    font-size: large;
+    font-weight: bold;
+}
+div h1 {
+    background-color: #14213D;
+    color: #fff;
+}

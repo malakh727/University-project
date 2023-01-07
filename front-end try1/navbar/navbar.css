@@ -9,10 +9,10 @@
     padding: 0.5em;
     padding-left: 7em;
 }
-ul{
+.navbar ul{
     padding-right: 7em;
 }
-li{
+.navbar li{
     padding: 0.4em;
     font: 1.5em sans-serif;
     color: #FCA311;
